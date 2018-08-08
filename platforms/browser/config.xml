@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.revivalofthought.graviton" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Graviton</name>
+    <description>
+        A game of skill.
+    </description>
+    <author email="support@revivalofthought.com" href="http://revivalofthought.com">
+        Inshirah
+    </author>
+    <content src="index.html" />
+    <gap:plugin name="cordova-plugin-whitelist" source="npm" />
+    <allow-navigation href="*" />
+    <access origin="*" />
+    <access origin="http://192.168.10.4:3000/" subdomains="true" />
+</widget>
