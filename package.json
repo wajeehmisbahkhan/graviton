@@ -1,0 +1,34 @@
+{
+  "name": "graviton",
+  "version": "1.0.0",
+  "description": "A game",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "start": "webpack-dev-server --ouput-public-path=/www/js/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wajeehmisbahkhan/graviton.git"
+  },
+  "keywords": [
+    "game",
+    "graviton",
+    "2d"
+  ],
+  "author": "Wajeeh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wajeehmisbahkhan/graviton/issues"
+  },
+  "homepage": "https://github.com/wajeehmisbahkhan/graviton#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^4.16.5",
+    "webpack-cli": "^3.1.0",
+    "webpack-dev-server": "^3.1.5"
+  }
+}

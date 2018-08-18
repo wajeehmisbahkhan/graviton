@@ -5,7 +5,7 @@ let game,
     arrow,
     theRot;
 
-class Game extends Phaser.Scene {
+export class Game extends Phaser.Scene {
     constructor () {
         super({
             key: "Game"
@@ -13,9 +13,9 @@ class Game extends Phaser.Scene {
     }
 
     preload () {
-        this.load.image('player', 'assets/sprites/player.png');
-        this.load.image('obstacle', 'assets/sprites/obstacle.png');
-        this.load.image('arrow', 'assets/sprites/arrow.png');
+        this.load.image('player', '/assets/sprites/player.png');
+        this.load.image('obstacle', '/assets/sprites/obstacle.png');
+        this.load.image('arrow', '/assets/sprites/arrow.png');
     }
 
     create () {

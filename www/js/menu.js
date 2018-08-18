@@ -4,7 +4,7 @@ let menu,
     startButton,
     creditButton;
 
-class Menu extends Phaser.Scene {
+export class Menu extends Phaser.Scene {
 
     constructor () {
         super({key: "Menu"});
